@@ -104,8 +104,9 @@ export const m = {
   last: 'last',
   About_presentation_error_answer_part_2: 'line.  if it\'s still different with the correct output, the result will be',
   How_to_report_bugs: 'How to report bugs about this oj?',
-  How_to_report_bugs_answer_part_1: 'The onlinejudge is open source, you can open an issue in',
-  How_to_report_bugs_answer_part_2: 'The details(like env, version..) about a bug is required, which will help us a lot to solve the bug. Certainly, we are very pleased to merge your pull requests.',
+  // Modify the About/FAQ content by 7110056226
+  How_to_report_bugs_answer_part_1: 'This Onlinejudge template is open source, you can open an issue in',
+  How_to_report_bugs_answer_part_2: 'The details(like env, version..) about a bug is required, which will help us a lot to solve the bug. Note that if you have questions about the course(NCHU OOP), please contact the TA.',
   // Cancel.vue
   Cancel: 'Cancel',
   // ContestDetail.vue

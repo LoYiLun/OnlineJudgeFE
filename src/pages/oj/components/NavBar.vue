@@ -10,10 +10,11 @@
         <Icon type="ios-keypad"></Icon>
         {{$t('m.NavProblems')}}
       </Menu-item>
-      <Menu-item name="/contest">
+      <!-- Modify the frontend to hide the constest bar by 7110056226 -->
+      <!-- <Menu-item name="/contest"> 
         <Icon type="trophy"></Icon>
         {{$t('m.Contests')}}
-      </Menu-item>
+      </Menu-item> -->
       <Menu-item name="/status">
         <Icon type="ios-pulse-strong"></Icon>
         {{$t('m.NavStatus')}}

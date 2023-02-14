@@ -100,8 +100,16 @@
             x: '3%',
             x2: '3%'
           },
+          // change lang to EN by 7110056226
           toolbox: {
-            show: true,
+            // show: true,
+            // feature: {
+            //   dataView: {show: true, readOnly: true, title: 'DataView'},
+            //   magicType: {show: true, type: ['line', 'bar'], title: {line: 'Line', bar: 'Bar'}},
+            //   saveAsImage: {show: true, title: 'SaveAsImage'}
+            // },
+            // right: '10%'
+            show: false,
             feature: {
               dataView: {show: true, readOnly: true},
               magicType: {show: true, type: ['line', 'bar']},

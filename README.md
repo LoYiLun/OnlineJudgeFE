@@ -6,15 +6,15 @@
 [![element-ui](https://img.shields.io/badge/element-2.0.9-blue.svg?style=flat-square)](https://github.com/ElemeFE/element)
 [![Build Status](https://travis-ci.org/QingdaoU/OnlineJudgeFE.svg?branch=master)](https://travis-ci.org/QingdaoU/OnlineJudgeFE)
 
->### A multiple pages app built for OnlineJudge. [Demo](https://qduoj.com)
+>### A OnlineJudge FrontEnd modified by [NCHU ISLab](https://aggielab.github.io/).
+### Forked from QingdaoU/OnlineJudgeFE. [Source](https://github.com/QingdaoU/OnlineJudgeFE)
 
-## Features
-
-+ Webpack3 multiple pages with bundle size optimization
-+ Easy use simditor & Nice codemirror editor
-+ Amazing charting and visualization(echarts)
-+ User-friendly operation
-+ Quite beautiful：)
+## Modification
+1. Change the language to traditional Chinese, and modify some content.
+2. Modify the front-end footer text and links.
+3. Remove the Contest button from the navigation bar.
+4. Change the About page to Java content only.
+5. Remove other functions of Rank page chart (e.g. export image).
 
 ## Get Started
 
@@ -50,10 +50,6 @@ set TARGET=http://Your-backend
 # serve with hot reload at localhost:8080
 npm run dev
 ```
-
-## Screenshots
-
-[Check here.](https://github.com/QingdaoU/OnlineJudge)
 
 ## Browser Support
 

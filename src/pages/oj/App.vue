@@ -7,7 +7,11 @@
       </transition>
       <div class="footer">
         <p v-html="website.website_footer"></p>
-        <p>Powered by <a href="https://github.com/QingdaoU/OnlineJudge">OnlineJudge</a>
+        <!-- Modify the frontend footer by 7110056226 -->
+        <!-- <p>Powered by <a href="https://github.com/QingdaoU/OnlineJudge">OnlineJudge</a>
+          <span v-if="version">&nbsp; Version: {{ version }}</span>
+        </p> -->
+        <p>Powered by <a href="https://aggielab.github.io/">NCHU ISLab</a>
           <span v-if="version">&nbsp; Version: {{ version }}</span>
         </p>
       </div>

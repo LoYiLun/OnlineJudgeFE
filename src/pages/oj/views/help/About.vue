@@ -4,8 +4,13 @@
       <div slot="title">{{$t('m.Compiler')}} & {{$t('m.Judger')}}</div>
       <div class="content markdown-body">
         <ul>
-          <li v-for="lang in languages">{{lang.name}} ( {{lang.description}} )
+          <!-- Change to display only in JAVA by 7110056226 -->
+          <!-- <li v-for="lang in languages">{{lang.name}} ( {{lang.description}} )
             <pre>{{lang.config.compile.compile_command}}</pre>
+          </li> -->
+          <li>
+            Java ( OpenJDK 11 )
+            <pre>/usr/bin/javac {src_path} -d {exe_dir} -encoding UTF8</pre>
           </li>
         </ul>
       </div>
